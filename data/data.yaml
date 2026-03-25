@@ -1,0 +1,27 @@
+# CargoGuard SENTINEL - Dataset Configuration
+# Merged dataset: PIDray + SIXray
+
+path: C:/Users/HP/OneDrive/Desktop/Tessa/cargoguard/data/processed/merged
+train: train/images
+val: val/images
+test: test/images
+
+nc: 12
+names:
+  0: Baton
+  1: Pliers
+  2: Hammer
+  3: Powerbank
+  4: Scissors
+  5: Wrench
+  6: Gun
+  7: Bullet
+  8: Sprayer
+  9: HandCuffs
+  10: Knife
+  11: Lighter
+
+# Risk Categories:
+# PROHIBITED (Red): Gun, Knife, Baton, Bullet
+# RESTRICTED (Amber): Pliers, Scissors, Wrench, Hammer, HandCuffs
+# REGULATED (Yellow): Powerbank, Sprayer, Lighter
