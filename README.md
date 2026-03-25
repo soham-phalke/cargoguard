@@ -166,36 +166,7 @@ File: data/data.yaml
 6. Train using train_local.py or Kaggle notebook.
 7. Save best weights and report metrics in results/metrics.
 
-## 11) PPT-Ready Summary
-
-Use this section directly in presentation slides.
-
-Slide 1: Problem Statement
-- Manual cargo X-ray screening is time-consuming and error-prone.
-- Security teams need faster and consistent prohibited-item detection.
-
-Slide 2: Proposed Solution
-- CargoGuard SENTINEL uses computer vision to detect suspicious objects in X-rays.
-- Pipeline supports data conversion, YOLO training, and risk-oriented class mapping.
-
-Slide 3: Technical Architecture
-- Input: raw X-ray datasets (PIDray/SIXray).
-- Processing: annotation conversion + merged YOLO dataset creation.
-- Model: YOLOv8 training and evaluation.
-- Extensions: anomaly detection and manifest mismatch verification modules.
-
-Slide 4: Current Progress
-- Dataset conversion scripts implemented.
-- Merging and split automation implemented.
-- Local and Kaggle training scripts implemented.
-- Modular repository prepared for backend/frontend integration.
-
-Slide 5: Expected Impact
-- Faster screening throughput.
-- Better consistency in prohibited item identification.
-- Scalable foundation for smart, multi-stage cargo risk assessment.
-
-## 12) Limitations and Next Steps
+## 11) Limitations and Next Steps
 
 Current limitations:
 - Datasets and trained weights are not versioned in Git by default.
@@ -206,7 +177,7 @@ Next steps:
 - Add model evaluation report templates and benchmark tracking.
 - Integrate trained model into backend inference API and frontend dashboard.
 
-## 13) Key Files
+## 12) Key Files
 
 - modules/detection/convert_pidray.py
 - modules/detection/merge_datasets.py
