@@ -1,7 +1,7 @@
 # CargoGuard SENTINEL - Dataset Configuration
 # Merged dataset: PIDray + SIXray
 
-path: C:/Users/HP/OneDrive/Desktop/Tessa/cargoguard/data/processed/merged
+path: C:/Users/HP/OneDrive/Desktop/CargoGuard/cargoguard/data/processed/merged
 train: train/images
 val: val/images
 test: test/images
